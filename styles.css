@@ -1,0 +1,23 @@
+body {
+  padding: 20px;
+  background-color: #4D8FAC;
+  text-align: center;
+  font-size: 14px;
+}
+
+.main {
+  background-color: #FFFFFF;
+  padding: 10px;
+  width: 60%;
+  margin: 0 auto;
+  border-radius: 30px;
+}
+
+#submitbtn {
+  background-color: #26A65B;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: white;
+  font-weight: bold;
+  border: 0px;
+}

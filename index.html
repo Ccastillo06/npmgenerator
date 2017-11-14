@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styles.css">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+  <title>npm generator</title>
+</head>
+<body>
+  <div class="main">
+    <h1>npm Install Generator</h1>
+    <form id="form" action="index.html">
+      <span><b>Want layouts? ---- </b></span>
+      <label for="layouts">EJS Layouts</label>
+      <input type="checkbox" name="layouts">
+      <br><br>
+      <span><b>Hash your pass ---- </b></span>
+      <label for="bcrypt">Bcrypt</label>
+      <input type="checkbox" name="bcrypt">
+      <br><br>
+      <span><b>Session module ---- </b></span>
+      <label for="session">Sessions</label>
+      <input type="checkbox" name="express-session">
+      <br><br>
+      <span><b>Passport auths ---- </b></span>
+      <label for="passport">Passport</label>
+      <input type="checkbox" name="passport passport-local">
+      <br><br>
+      <span><b>Force the login ---- </b></span>
+      <label for="ensure">Ensure Login</label>
+      <input type="checkbox" name="connect-ensure-login">
+      <br><br>
+      <span><b>Error control ---- </b></span>
+      <label for="flash">Connect Flash</label>
+      <input type="checkbox" name="connect-flash">
+      <br><br>
+      <span><b>FB login ---- </b></span>
+      <label for="passfb">Passport Facebook</label>
+      <input type="checkbox" name="passport-facebook">
+      <br><br>
+      <span><b>Google Login ---- </b></span>
+      <label for="passgg">Passport Google</label>
+      <input type="checkbox" name="passport-google-oauth">
+      <br><br>
+      <span><b>Readable timestamps ---- </b></span>
+      <label for="moments">Moments</label>
+      <input type="checkbox" name="moment">
+      <br><br>
+      <span><b>API calls  ---- </b></span>
+      <label for="axios">Axios</label>
+      <input type="checkbox" name="axios">
+      <br><br>
+      <button id='submitbtn'>Get npm</button>
+    </form>
+    <h3 id="express"></h3>
+    <h3 id="npm"></h3>
+  </div>
+</body>
