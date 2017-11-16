@@ -1,5 +1,5 @@
 $(document).ready(() => {
-  var express = 'express newProject --ejs -- git';
+  var express = 'express newProject --ejs --git';
   var npm = 'npm i --save mongodb mongoose nodemon'
 
   $('#form').on('submit', (e) => {
